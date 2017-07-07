@@ -1,0 +1,34 @@
+.avatar{
+  width:100%
+}
+ body {
+     background-image: url(../images/bgimage.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-family: 'Georgia', sans-serif;
+     }
+h1{
+    font-family: 'Georgia',sans-serif;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+p{
+    font-family: 'Fira Sans',sans-serif;
+    font-family: 'lobster', cursive;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+input[type="text"] {
+     width: 50%;
+     margin: auto;
+ }
+.container{
+    background-image: url(../images/background.jpg);
+    width:75%;
+     margin: 10px auto 0;
+     padding: 50px;
+     padding-top: 2px;
+     box-sizing: border-box;
+}

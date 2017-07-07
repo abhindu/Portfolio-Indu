@@ -1,0 +1,175 @@
+ body {
+     background-image: url(../images/bmi_calculator.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     font-family: 'Fira Sans', sans-serif;
+     font-family: 'Lobster', cursive;
+ }
+ 
+ #container {
+     width: 430px;
+     margin: 10px auto 0;
+     padding: 50px;
+     padding-top: 2px;
+     box-sizing: border-box;
+     background: url(../images/texture.jpg) top left repeat;
+     -webkit-box-shadow: 0 10px 15px -8px #000;
+     -moz-box-shadow: 0 10px 15px -8px #000;
+     -o-box-shadow: 0 10px 15px -8px #000;
+     -ms-box-shadow: 0 10px 15px -8px #000;
+     box-shadow: 10px 10px 15px -8px #000;
+     border-radius: 5px;
+     text-align: center;
+     font-family: 'Fira Sans';
+ }
+ 
+ h1 {
+     margin: 0 0 20px;
+     padding: 0 0 20px;
+     border-bottom: solid 2px black;
+     font-family: 'Lucida Calligraphy';
+     text-shadow: 2px 2px 5px #532827;
+ }
+ 
+ form {
+     text-align: left;
+ }
+ 
+ form label {
+     display: block;
+     margin: 25px 0;
+     font-weight: bold;
+ }
+ 
+ form input,
+ form select {
+     padding: 8px;
+     margin: 10px 0;
+     border-radius: 5px;
+ }
+ 
+ form input[type="text"] {
+     width: 50%;
+     margin: auto;
+ }
+ 
+ input[type="button"] {
+     background: rgba(103, 93, 18, 0.5);
+     color: white;
+     padding: 15px 15px;
+     width: 60%;
+     object-position: center;
+     border: none;
+     border-bottom: solid 2px #222;
+     border-radius: 4%;
+     color: #532827;
+     text-transform: uppercase;
+     font-size: 16px;
+     font-weight: bold;
+     -webkit-box-shadow: 2px 2px 5px #532827;
+     -moz-box-shadow: 2px 2px 5px #532827;
+     -o-box-shadow: 2px 2px 5px #532827;
+     -ms-box-shadow: 2px 2px 5px #532827;
+     box-shadow: 2px 2px 5px #532827;
+ }
+ 
+ input[type="reset"] {
+     background: rgba(103, 93, 18, 0.5);
+     color: white;
+     padding: 15px 15px;
+     width: 60%;
+     border: none;
+     border-bottom: solid 2px #222;
+     border-radius: 4%;
+     color: #532827;
+     text-transform: uppercase;
+     font-size: 16px;
+     font-weight: bold;
+     -webkit-box-shadow: 2px 2px 5px #532827;
+     -moz-box-shadow: 2px 2px 5px #532827;
+     -o-box-shadow: 2px 2px 5px #532827;
+     -ms-box-shadow: 2px 2px 5px #532827;
+     box-shadow: 2px 2px 5px #532827;
+ }
+ 
+ .inputbox {
+     margin-bottom: 20px;
+     font-family: sans-serif;
+     color: black;
+ }
+ 
+ button:hover {
+     background: #4c2827;
+     border-bottom-color: #111;
+     cursor: pointer;
+     color: white;
+ }
+ 
+ button:active {
+     position: relative;
+     top: 1px;
+     outline: none;
+ }
+ 
+ button:focus {
+     outline: 0;
+ }
+ 
+ #totalTip:before {
+     display: block;
+     content: "Tip amount";
+     font-size: 18px;
+     font-weight: bold;
+     text-transform: uppercase;
+ }
+ 
+ #totalTip sup {
+     font-size: 24px;
+     top: -30px;
+ }
+ 
+ #totalTip #tip {
+     font-size: 55px;
+ }
+ 
+ #totalTip small {
+     font-size: 14px;
+     font-weight: bold;
+     display: block;
+ }
+ /* Queries */
+ 
+ @media only screen and (max-width: 430px) {
+     #container {
+         width: 350px;
+         font-size: 85%;
+     }
+ }
+ 
+ @media only screen and (max-width: 400px) {
+     #container {
+         width: 330px;
+         font-size: 80%;
+     }
+ }
+ 
+ @media only screen and (max-width: 340px) {
+     #container {
+         width: 300px;
+         font-size: 80%;
+     }
+ }
+ 
+ @media only screen and (max-width: 310px) {
+     #container {
+         width: 270px;
+         font-size: 80%;
+     }
+ }
+ 
+ @media only screen and (max-width: 280px) {
+     #container {
+         width: 260px;
+         font-size: 80%;
+     }
+ }
