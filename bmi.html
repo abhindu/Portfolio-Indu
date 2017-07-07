@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Body Mass Calculator</title>
+    <meta charset="utf-8">
+    <meta name="description" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bmi.css"> </head>
+
+<body>
+       
+        <div id="container">
+           <h1><img src="images/Logo-bmi.png" alt="bmi" height="50" width="50"><br>BMI Calculator</h1>
+            <div id="bmi-calculator">
+                        <div class="row">
+                            <form id="bmiForm" name="bmiForm">
+                               <label>Your Height(cm):
+                                   <input type="number" name="height" required></label>
+                        
+                                <label>Your Weight(Kg):
+                                    <input type="number" name="weight" required></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            
+                                <input type="button" value="Calculate BMI" onClick="calculateBmi()">&nbsp;&nbsp;&nbsp;&nbsp;
+                                
+                                <label>Calculated BMI:&nbsp;
+                                <input type="text" name="bmi" size="25"></label>
+                                <label>This Means:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="text" name="meaning" size="25"></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="reset" value="Reset" />
+                             </form>
+                        </div>
+                    </div>
+                </div>
+          
+        <script src="js/bmi.js"></script>
+</body>
+
+</html>
